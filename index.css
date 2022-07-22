@@ -1,0 +1,117 @@
+.wave1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 209px;
+}
+
+.wave1 .shape-fill {
+    fill: pink;
+    opacity: 0.8;
+}
+
+.wave2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 265px;
+}
+
+.wave2 .shape-fill {
+    fill: pink;
+    opacity: 1;
+}
+
+.wave3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.container1 {
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    top: 5%;
+    left: 5%;
+    border-bottom-right-radius: 8rem;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+#b1 {
+    width: 1rem;
+    height: 1rem;
+    border: 3px solid palevioletred;
+    border-radius: 25rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3rem !important;
+    height: 3rem;
+    border-radius: 30rem;
+    background-color: palevioletred !important;
+    opacity: 0.7 !important;
+    top: calc(50% - 25px) !important;
+}
+
+.container2 {
+    color: palevioletred;
+}
+
+.container5 {
+    position: absolute;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 22rem;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 1rem;
+}
+
+.container6 {
+    margin: 20%;
+}
