@@ -1,0 +1,15 @@
+@media screen and (max-device-width:600px) 
+{
+    html
+    {
+        font-size: 40%;
+    }
+    .container3 img
+    {
+        width: 45rem;
+    }    
+    .container4
+    {
+        display: grid;
+    }
+}
